@@ -135,22 +135,6 @@ body {
     width: 100%;
 }
 
-.header__login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header__login__text {
-    font-size: 20px;
-    font-family: genshin;
-    color: #ffffff;  
-    position: relative;
-    margin: 0 30px 0 0;
-    align-items: flex-end;
-    text-transform: uppercase;
-    
-}
 /*----------main page content-----------*/
 
 .page {
@@ -352,9 +336,6 @@ button {
     .menu__item:not(:last-child){
         margin: 0 30px 0 0;
     }
-    .header__login__text{
-        font-size: 16px;
-    }
     .header__menu {
         margin: 0 30px 0 30px;
     }
@@ -449,10 +430,6 @@ button {
     }
     .menu__item:not(:last-child){
         margin: 0 30px 0 0;
-    }
-    .header__login__text{
-        font-size: 14px;
-        margin: 0 10px 0 0;
     }
     .header__menu {
         margin: 0 30px 0 30px;
